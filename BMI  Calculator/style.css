@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #c3c2c2;
+  }
+  
+  .form-section {
+    height: 70%;
+    display: grid;
+    margin: 0 auto; 
+    max-width: 90vw;
+    grid-template-columns: 1fr;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #dbdada;
+  }
+  
+  form {
+    margin: 50px auto; 
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+  }
+  
+  #weight-guide {
+    margin: 50px auto; 
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px;
+  }
+  
+  form p {
+    font-size: 1.2rem; 
+    font-weight: 600;
+  }
+  
+  #results {
+    border: 1px solid black;
+    height: auto;
+    margin: 20px;
+    color: black;
+  }
+  
+  #height {
+    width: 100px; 
+    height: 25px;
+    margin-top: 50px;
+  }
+  
+  #weight {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+  }
+  
+  #weight-guide h3 {
+    margin: 30px 0;
+    font-size: 1.8rem;
+  }
+  
+  #weight-guide p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  button {
+    width: 140px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: #dbdada;
+    border-radius: 15px;
+    color: #212121;
+    border: 1.8px solid #212121;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  button:hover {
+    color: aliceblue;
+    background: #898989;
+  }
+  
+  @media (min-width: 600px) {
+    .form-section {
+      grid-template-columns: 1fr 1fr; 
+      max-width: 80vw; 
+    }
+  
+    form {
+      width: 60%; 
+    }
+  
+    #weight-guide {
+      width: 50%; 
+    }
+  
+    h1 {
+      font-size: 3.5rem; 
+    }
+  
+    form p {
+      font-size: 1.2rem; 
+    }
+  
+    #weight-guide h3 {
+      font-size: 1.5rem; 
+    }
+  
+    #weight-guide p {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .form-section {
+      max-width: 60vw; 
+    }
+  
+    form {
+      width: 50%; 
+    }
+  
+    h1 {
+      font-size: 3rem; 
+    }
+  }
+  
